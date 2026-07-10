@@ -60,10 +60,28 @@ export function Hero() {
           we&apos;re your full-service digital commerce partner.
         </p>
 
+        {/* Stats */}
+        <div className="mt-12 grid w-full max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
+          {stats.map((s, idx) => (
+            <div
+              key={s.label}
+              className="rise rounded-xl border border-border bg-card/50 p-6 backdrop-blur"
+              style={{ animationDelay: `${0.35 + idx * 0.12}s` }}
+            >
+              <div className="text-3xl font-semibold text-foreground">
+                {s.value}
+              </div>
+              <div className="mt-1 text-sm text-muted-foreground">
+                {s.label}
+              </div>
+            </div>
+          ))}
+        </div>
+
         {/* Brand marquee */}
         <div
-          className="rise relative mt-12 w-screen max-w-none overflow-hidden"
-          style={{ animationDelay: "0.35s" }}
+          className="rise relative mt-14 w-screen max-w-none overflow-hidden"
+          style={{ animationDelay: "0.6s" }}
         >
           <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
           <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent" />
@@ -84,24 +102,6 @@ export function Hero() {
               />
             ))}
           </div>
-        </div>
-
-        {/* Stats */}
-        <div className="mt-12 grid w-full max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
-          {stats.map((s, idx) => (
-            <div
-              key={s.label}
-              className="rise rounded-xl border border-border bg-card/50 p-6 backdrop-blur"
-              style={{ animationDelay: `${0.5 + idx * 0.12}s` }}
-            >
-              <div className="text-3xl font-semibold text-foreground">
-                {s.value}
-              </div>
-              <div className="mt-1 text-sm text-muted-foreground">
-                {s.label}
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </section>
