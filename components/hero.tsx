@@ -4,7 +4,26 @@ const stats = [
   { value: "24/7", label: "Support Available" },
 ]
 
+const brands = [
+  { name: "Skull Peace", src: "/skull-peace.png", h: "h-12", ar: "381/378" },
+  { name: "Diamond", src: "/logo-diamond.png", h: "h-12", ar: "597/659" },
+  { name: "Living Word", src: "/living-word.png", h: "h-7", ar: "976/208" },
+  { name: "1199", src: "/1199.png", h: "h-12", ar: "800/638" },
+  { name: "Stray Pledge", src: "/stray-pledge.png", h: "h-7", ar: "127/27" },
+  { name: "Faith Made", src: "/faith-made.png", h: "h-7", ar: "500/86" },
+  { name: "Velara", src: "/velara.png", h: "h-8", ar: "242/80" },
+  { name: "Natcore", src: "/natcore.png", h: "h-8", ar: "584/143" },
+  { name: "Le D'Affaires", src: "/le-daffaires.png", h: "h-7", ar: "1200/158" },
+  { name: "Ruel", src: "/ruel.png", h: "h-12", ar: "219/172" },
+  { name: "Teddy Blocks", src: "/teddy-blocks.png", h: "h-10", ar: "500/219" },
+  { name: "Curvani", src: "/curvani.png", h: "h-7", ar: "900/169" },
+  { name: "Lirae", src: "/lirae.png", h: "h-8", ar: "299/94" },
+  { name: "SW", src: "/sw.png", h: "h-12", ar: "632/480" },
+  { name: "Simply Revival", src: "/simply-revival.png", h: "h-7", ar: "400/70" },
+]
+
 export function Hero() {
+  const row = [...brands, ...brands]
   return (
     <section className="relative overflow-hidden">
       {/* Background grid */}
@@ -35,18 +54,45 @@ export function Hero() {
           </span>
         </h1>
         {/* Subtitle */}
-        <p className="rise rise-2 mt-5 max-w-2xl pb-8 text-pretty text-base text-muted-foreground sm:text-lg"> 
+        <p className="rise rise-2 mt-5 max-w-2xl text-pretty text-base text-muted-foreground sm:text-lg">
           We build, scale, and transform e-commerce businesses with cutting-edge
           technology and AI-driven strategies. From development to marketing,
           we&apos;re your full-service digital commerce partner.
         </p>
+
+        {/* Brand marquee */}
+        <div
+          className="rise relative mt-12 w-screen max-w-none overflow-hidden"
+          style={{ animationDelay: "0.35s" }}
+        >
+          <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent" />
+          <div className="flex w-max animate-marquee items-center gap-16">
+            {[...row, ...row].map((b, i) => (
+              <div
+                key={i}
+                role="img"
+                aria-label={b.name}
+                className={`${b.h} shrink-0 opacity-60 brightness-0 invert transition-opacity hover:opacity-100`}
+                style={{
+                  aspectRatio: b.ar,
+                  backgroundImage: `url(${b.src})`,
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              />
+            ))}
+          </div>
+        </div>
+
         {/* Stats */}
-        <div className="mt-5 grid w-full max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
+        <div className="mt-12 grid w-full max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
           {stats.map((s, idx) => (
             <div
               key={s.label}
               className="rise rounded-xl border border-border bg-card/50 p-6 backdrop-blur"
-              style={{ animationDelay: `${0.35 + idx * 0.12}s` }}
+              style={{ animationDelay: `${0.5 + idx * 0.12}s` }}
             >
               <div className="text-3xl font-semibold text-foreground">
                 {s.value}
