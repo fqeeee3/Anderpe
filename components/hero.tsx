@@ -45,7 +45,7 @@ export function Hero() {
           {stats.map((s, idx) => (
             <div
               key={s.label}
-              className={`rise rounded-xl border border-border bg-card/50 p-6 backdrop-blur ${idx === 0 ? "-mt-[10px]" : ""}`}
+              className="rise rounded-xl border border-border bg-card/50 p-6 backdrop-blur"
               style={{ animationDelay: `${0.35 + idx * 0.12}s` }}
             >
               <div className="text-3xl font-semibold text-foreground">
@@ -61,13 +61,3 @@ export function Hero() {
     </section>
   )
 }
-
-<h1 className="rise rise-1 ...existing classes">
-  Your D2C <span className="whitespace-nowrap">E-Commerce</span> Solution
-</h1>
-<p className="rise rise-2 ...existing classes">
-  We build, scale, and transform...
-</p>
-<div className="rise rise-3 ...existing classes">
-  {/* buttons */}
-</div>
