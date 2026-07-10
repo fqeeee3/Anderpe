@@ -6,15 +6,18 @@ const stats = [
 
 const brands = [
   { name: "Skull Peace", src: "/skull-peace.png", h: "h-12", ar: "381/378" },
+  { name: "Rue de Sèvres", src: "/rue-de-sevres.png", h: "h-8", ar: "712/168" },
   { name: "Diamond", src: "/logo-diamond.png", h: "h-12", ar: "597/659" },
   { name: "Living Word", src: "/living-word.png", h: "h-7", ar: "976/208" },
   { name: "1199", src: "/1199.png", h: "h-12", ar: "800/638" },
   { name: "Stray Pledge", src: "/stray-pledge.png", h: "h-7", ar: "127/27" },
+  { name: "Archive Threads", src: "/archive-threads.png", h: "h-7", ar: "721/118" },
   { name: "Faith Made", src: "/faith-made.png", h: "h-7", ar: "500/86" },
   { name: "Velara", src: "/velara.png", h: "h-8", ar: "242/80" },
   { name: "Natcore", src: "/natcore.png", h: "h-8", ar: "584/143" },
   { name: "Le D'Affaires", src: "/le-daffaires.png", h: "h-7", ar: "1200/158" },
   { name: "Ruel", src: "/ruel.png", h: "h-12", ar: "219/172" },
+  { name: "gLOSS", src: "/gloss.png", h: "h-7", ar: "1135/250" },
   { name: "Teddy Blocks", src: "/teddy-blocks.png", h: "h-10", ar: "500/219" },
   { name: "Curvani", src: "/curvani.png", h: "h-7", ar: "900/169" },
   { name: "Lirae", src: "/lirae.png", h: "h-8", ar: "299/94" },
