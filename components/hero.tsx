@@ -61,3 +61,13 @@ export function Hero() {
     </section>
   )
 }
+
+<h1 className="rise rise-1 ...existing classes">
+  Your D2C <span className="whitespace-nowrap">E-Commerce</span> Solution
+</h1>
+<p className="rise rise-2 ...existing classes">
+  We build, scale, and transform...
+</p>
+<div className="rise rise-3 ...existing classes">
+  {/* buttons */}
+</div>
