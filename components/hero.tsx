@@ -45,23 +45,23 @@ export function Hero() {
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-24 h-72 w-[36rem] -translate-x-1/2 rounded-full bg-primary/20 blur-[120px]"
       />
-      <div className="relative mx-auto flex max-w-4xl flex-col items-center px-4 py-16 text-center sm:px-6 sm:py-20">
+      <div className="relative mx-auto flex max-w-4xl flex-col items-center px-4 pt-20 text-center sm:px-6 sm:pt-24">
         {/* Headline */}
-        <h1 className="rise rise-1 mt-8 text-balance text-4xl font-bold leading-tight tracking-tight sm:text-7xl">
+        <h1 className="rise rise-1 text-balance text-4xl font-bold leading-tight tracking-tight sm:text-7xl">
           <span className="bg-gradient-to-r from-muted-foreground to-foreground bg-clip-text text-transparent">
             Your D2C <span className="whitespace-nowrap">E-Commerce</span>{" "}
             Solution
           </span>
         </h1>
         {/* Subtitle */}
-        <p className="rise rise-2 mt-5 max-w-2xl text-pretty text-base text-muted-foreground sm:text-lg">
+        <p className="rise rise-2 mt-6 max-w-2xl text-pretty text-base text-muted-foreground sm:text-lg">
           We build, scale, and transform e-commerce businesses with cutting-edge
           technology and AI-driven strategies. From development to marketing,
           we&apos;re your full-service digital commerce partner.
         </p>
 
         {/* Stats */}
-        <div className="mt-12 grid w-full max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
+        <div className="mt-14 grid w-full max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
           {stats.map((s, idx) => (
             <div
               key={s.label}
@@ -80,7 +80,7 @@ export function Hero() {
 
         {/* Brand marquee */}
         <div
-          className="rise relative mt-14 w-screen max-w-none overflow-hidden"
+          className="rise relative mt-14 w-screen max-w-none overflow-hidden border-y border-border/60 py-10"
           style={{ animationDelay: "0.6s" }}
         >
           <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
