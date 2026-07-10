@@ -26,28 +26,27 @@ export function Hero() {
         aria-hidden
         className="pointer-events-none absolute left-1/2 top-24 h-72 w-[36rem] -translate-x-1/2 rounded-full bg-primary/20 blur-[120px]"
       />
-
       <div className="relative mx-auto flex max-w-4xl flex-col items-center px-4 py-16 text-center sm:px-6 sm:py-20">
         {/* Headline */}
-        <h1 className="mt-8 text-balance text-4xl font-bold leading-tight tracking-tight sm:text-7xl">
+        <h1 className="rise rise-1 mt-8 text-balance text-4xl font-bold leading-tight tracking-tight sm:text-7xl">
           <span className="bg-gradient-to-r from-muted-foreground to-foreground bg-clip-text text-transparent">
-            Your D2C E-Commerce Solution
+            Your D2C <span className="whitespace-nowrap">E-Commerce</span>{" "}
+            Solution
           </span>
         </h1>
-
         {/* Subtitle */}
-        <p className="mt-5 max-w-2xl pb-[100px] text-pretty text-base text-muted-foreground sm:text-lg">
+        <p className="rise rise-2 mt-5 max-w-2xl pb-[100px] text-pretty text-base text-muted-foreground sm:text-lg">
           We build, scale, and transform e-commerce businesses with cutting-edge
           technology and AI-driven strategies. From development to marketing,
           we&apos;re your full-service digital commerce partner.
         </p>
-
         {/* Stats */}
         <div className="mt-5 grid w-full max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
           {stats.map((s, idx) => (
             <div
               key={s.label}
-              className={`rounded-xl border border-border bg-card/50 p-6 backdrop-blur ${idx === 0 ? '-mt-[10px]' : ''}`}
+              className={`rise rounded-xl border border-border bg-card/50 p-6 backdrop-blur ${idx === 0 ? "-mt-[10px]" : ""}`}
+              style={{ animationDelay: `${0.35 + idx * 0.12}s` }}
             >
               <div className="text-3xl font-semibold text-foreground">
                 {s.value}
