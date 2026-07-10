@@ -12,9 +12,16 @@ const manrope = Manrope({ variable: '--font-manrope', subsets: ['latin'] })
 const lato = Lato({ variable: '--font-lato', weight: ['400', '700', '900'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://anderpe.com'),
   title: 'Anderpe',
-  description:
-    'We build your favorite e-commerce businesses.',
+  description: 'We build your favorite e-commerce businesses.',
+  openGraph: {
+    title: 'Anderpe',
+    description: 'We build your favorite e-commerce businesses.',
+    url: 'https://anderpe.com',
+    siteName: 'Anderpe',
+    type: 'website',
+  },
 }
 
 export const viewport: Viewport = {
