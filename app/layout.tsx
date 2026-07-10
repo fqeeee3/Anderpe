@@ -12,9 +12,9 @@ const manrope = Manrope({ variable: '--font-manrope', subsets: ['latin'] })
 const lato = Lato({ variable: '--font-lato', weight: ['400', '700', '900'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'OS Commerce | AI-First E-Commerce Solutions',
+  title: 'Anderpe',
   description:
-    'We build, scale, and transform e-commerce businesses with cutting-edge technology and AI-driven strategies.',
+    'We build e-commerce businesses with cutting-edge technology and AI-driven strategies.',
   icons: {
     icon: [
       {
