@@ -1,5 +1,6 @@
 import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
+import { Brands } from "@/components/brands"
 import { Services } from "@/components/services"
 import { AiApproach } from "@/components/ai-approach"
 import { About } from "@/components/about"
@@ -10,6 +11,7 @@ export default function Page() {
     <main className="min-h-screen bg-background text-foreground">
       <SiteHeader />
       <Hero />
+      <Brands />
       <Services />
       <AiApproach />
       <About />
