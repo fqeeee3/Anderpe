@@ -6,7 +6,7 @@ const stats = [
 
 const brands = [
   { name: "Skull Peace", src: "/skull-peace.png", h: "h-12", ar: "381/378" },
-  { name: "Rue de Sèvres", src: "/rue-de-sevres.png", h: "h-8", ar: "712/168" },
+  { name: "Rue de Sèvres", src: "/RUES.png", h: "h-8", ar: "712/168" },
   { name: "Diamond", src: "/logo-diamond.png", h: "h-12", ar: "597/659" },
   { name: "Living Word", src: "/living-word.png", h: "h-7", ar: "976/208" },
   { name: "1199", src: "/1199.png", h: "h-12", ar: "800/638" },
