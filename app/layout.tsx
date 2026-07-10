@@ -14,7 +14,7 @@ const lato = Lato({ variable: '--font-lato', weight: ['400', '700', '900'], subs
 export const metadata: Metadata = {
   title: 'Anderpe',
   description:
-    'We build e-commerce businesses with cutting-edge technology and AI-driven strategies.',
+    'We build your favorite e-commerce businesses.',
 }
 
 export const viewport: Viewport = {
