@@ -35,7 +35,7 @@ export function Hero() {
           </span>
         </h1>
         {/* Subtitle */}
-        <p className="rise rise-2 mt-5 max-w-2xl pb-[100px] text-pretty text-base text-muted-foreground sm:text-lg">
+        <p className="rise rise-2 mt-5 max-w-2xl pb-8 text-pretty text-base text-muted-foreground sm:text-lg"> 
           We build, scale, and transform e-commerce businesses with cutting-edge
           technology and AI-driven strategies. From development to marketing,
           we&apos;re your full-service digital commerce partner.
