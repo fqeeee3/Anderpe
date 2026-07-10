@@ -15,14 +15,7 @@ export const metadata: Metadata = {
   title: 'Anderpe',
   description:
     'We build e-commerce businesses with cutting-edge technology and AI-driven strategies.',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-       
+}
 
 export const viewport: Viewport = {
   colorScheme: 'light dark',
