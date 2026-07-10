@@ -80,7 +80,7 @@ export function Hero() {
 
         {/* Brand marquee */}
         <div
-          className="rise relative mt-14 w-screen max-w-none overflow-hidden border-y border-border/60 py-10"
+          className="rise relative mt-14 w-screen max-w-none overflow-hidden border-y border-white/15 py-10"
           style={{ animationDelay: "0.6s" }}
         >
           <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
