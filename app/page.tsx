@@ -29,13 +29,7 @@ export default function Page() {
             <span className="text-lg font-bold italic">Anderpe</span>
             <nav className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
               {footerLinks.map((l) => (
-                
-                  key={l.label}
-                  href={l.href}
-                  className="transition-colors hover:text-foreground"
-                >
-                  {l.label}
-                </a>
+                <a key={l.label} href={l.href} className="transition-colors hover:text-foreground">{l.label}</a>
               ))}
             </nav>
           </div>
