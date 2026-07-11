@@ -17,7 +17,6 @@ export default function TermsPage() {
         <h1 className="mt-8 text-3xl font-bold tracking-tight sm:text-4xl">
           Terms of Service
         </h1>
-        <p className="mt-2 text-sm text-muted-foreground">
 
         <div className="mt-10 space-y-8 text-sm leading-relaxed text-muted-foreground">
           <section>
@@ -120,7 +119,9 @@ export default function TermsPage() {
               9. Contact
             </h2>
             <p>
-              Questions about this policy? Email us at support@anderpe.com, reach us through the contact form at anderpe.com, or write to Anderpe LLC, 30 N. Gould St. Ste N, Sheridan, WY 82801.
+              Questions about these Terms? Email us at support@anderpe.com,
+              reach us through the contact form at anderpe.com, or write to
+              Anderpe LLC, 30 N. Gould St. Ste N, Sheridan, WY 82801.
             </p>
           </section>
         </div>
