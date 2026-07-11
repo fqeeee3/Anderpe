@@ -122,9 +122,7 @@ export default function TermsPage() {
               9. Contact
             </h2>
             <p>
-              Questions about these Terms? Reach us through the contact form at
-              anderpe.com or by mail at Anderpe LLC, 30 N. Gould St. Ste N,
-              Sheridan, WY 82801.
+              Questions about this policy? Email us at support@anderpe.com, reach us through the contact form at anderpe.com, or write to Anderpe LLC, 30 N. Gould St. Ste N, Sheridan, WY 82801.
             </p>
           </section>
         </div>
