@@ -24,20 +24,7 @@ export default function PrivacyPage() {
         <div className="mt-10 space-y-8 text-sm leading-relaxed text-muted-foreground">
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              1. Who we are
-            </h2>
-            <p>
-              Anderpe LLC (&quot;Anderpe&quot;, &quot;we&quot;, &quot;us&quot;)
-              is a limited liability company registered in Wyoming, United
-              States, with its registered office at 30 N. Gould St. Ste N,
-              Sheridan, WY 82801. This policy explains how we collect, use, and
-              protect information when you visit anderpe.com or contact us.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="mb-2 text-lg font-semibold text-foreground">
-              2. Information we collect
+              1. Information we collect
             </h2>
             <p>
               We collect information you provide directly, such as your name,
@@ -51,7 +38,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              3. How we use information
+              2. How we use information
             </h2>
             <p>
               We use your information to respond to inquiries, provide and
@@ -63,7 +50,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              4. Sharing
+              3. Sharing
             </h2>
             <p>
               We share information only with service providers who help us
@@ -76,7 +63,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              5. Cookies and analytics
+              4. Cookies and analytics
             </h2>
             <p>
               Our website uses minimal cookies and similar technologies
@@ -87,7 +74,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              6. Data retention
+              5. Data retention
             </h2>
             <p>
               We keep personal information only as long as needed for the
@@ -98,7 +85,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              7. Your rights
+              6. Your rights
             </h2>
             <p>
               Depending on your location, you may have rights to access,
@@ -111,18 +98,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              8. Children
-            </h2>
-            <p>
-              Our services are directed at businesses and are not intended for
-              children under 13. We do not knowingly collect information from
-              children.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="mb-2 text-lg font-semibold text-foreground">
-              9. Changes
+              7. Changes
             </h2>
             <p>
               We may update this policy from time to time. The latest version
@@ -133,12 +109,12 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="mb-2 text-lg font-semibold text-foreground">
-              10. Contact
+              8. Contact
             </h2>
             <p>
-              Questions about this policy? Reach us through the contact form at
-              anderpe.com or by mail at Anderpe LLC, 30 N. Gould St. Ste N,
-              Sheridan, WY 82801.
+              Questions about this policy? Email us at support@anderpe.com,
+              reach us through the contact form at anderpe.com, or write to
+              Anderpe LLC, 30 N. Gould St. Ste N, Sheridan, WY 82801.
             </p>
           </section>
         </div>
